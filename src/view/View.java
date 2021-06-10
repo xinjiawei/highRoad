@@ -80,7 +80,7 @@ public class View {
                 se.printStackTrace();
             }
         }
-        System.out.println("Goodbye!");
+        System.out.println("select data complete!");
     }
     
 }
