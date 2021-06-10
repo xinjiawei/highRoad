@@ -1,0 +1,49 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Tester",
+            "request": "launch",
+            "mainClass": "Tester",
+            "projectName": "highRoad_12e3e193"
+        },
+        {
+            "type": "java",
+            "name": "Launch View",
+            "request": "launch",
+            "mainClass": "view.View",
+            "projectName": "highRoad_12e3e193"
+        },
+        {
+            "type": "java",
+            "name": "Launch View",
+            "request": "launch",
+            "mainClass": "view.View",
+            "projectName": "HTTPRequest_cfd48596"
+        },
+        {
+            "type": "java",
+            "name": "Launch wash",
+            "request": "launch",
+            "mainClass": "wash.wash",
+            "projectName": "HTTPRequest_cfd48596"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tester",
+            "request": "launch",
+            "mainClass": "Tester",
+            "projectName": "HTTPRequest_cfd48596"
+        }
+    ]
+}
