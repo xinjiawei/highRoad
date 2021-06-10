@@ -5,7 +5,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-
+//将json对象转换为数组对象，然后存入数据库
 public class Store {
  //0000000000000000000000000000000000000000000000000
     private String name;

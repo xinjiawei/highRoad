@@ -1,11 +1,13 @@
 package view;
 import java.sql.*;
-
+//进行数据的读取，从数据库中，然后控制台打印
 public class View {
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
     static final String DB_URL = "jdbc:mysql://localhost:3306/road";
     static final String USER = "road";
     static final String PASS = "o7WV5zY111YnfTHZ";
+
+
 
 
     public static void main(String[] args) {

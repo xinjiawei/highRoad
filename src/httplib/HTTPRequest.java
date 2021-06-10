@@ -18,6 +18,8 @@ import java.net.URL;
  * 
  */
 
+//获取tramp中的数据，过去的是json格式，需要进行清洗
+
 public class HTTPRequest {
 	public Cookie myCookie;
 	private HttpURLConnection URLConnection;
