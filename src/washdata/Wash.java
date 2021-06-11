@@ -21,7 +21,7 @@ public class Wash {
     protected String getName() {
         return name;
     }
-//00000000000000000000000000000000000000000000000000
+//0000000000000000000000000000000000000000000000000
 
     public String toStringOfAllInforation() {
        Pattern p = Pattern.compile(REGEX1);
@@ -33,6 +33,8 @@ public class Wash {
        Pattern p3 = Pattern.compile(REGEX4);
        // get a matcher object
        Matcher m3 = p3.matcher(m.replaceAll(REPLACE1));
+
+       System.out.print("----------数据清洗完成----------" + "\n" + "----------数据删除整理完成----------" + "\n");
 		return m3.replaceAll(REPLACE1);
     }
 
@@ -45,6 +47,8 @@ public class Wash {
         Pattern p2 = Pattern.compile(REGEX3);
         // get a matcher object
         Matcher m2 = p2.matcher(m1.replaceAll(REPLACE2));
+
+        System.out.print("----------json格式整理完成----------" + "\n");
 
         return m2.replaceAll(REPLACE3);
     }

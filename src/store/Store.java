@@ -32,7 +32,7 @@ public class Store {
             Class.forName(JDBC_DRIVER);
         
             // 打开链接
-            System.out.println("连接数据库...");
+            System.out.println("----------connect to database , waiting...----------");
             conn = DriverManager.getConnection(DB_URL,USER,PASS);
 			//0000000000000000000000000000000000000000000000000000000000000000000000
 			String json = getJson();
@@ -60,6 +60,7 @@ public class Store {
 				stmt.executeUpdate();
 
 			}
+			System.out.print("----------connect success----------" + "\n");
 
 		}catch(SQLException se){
             // 处理 JDBC 错误
@@ -84,7 +85,7 @@ public class Store {
 		}
 	}
 
-        return "ok";
+        return "----------restore data complete----------" + "\n";
 
     }
     

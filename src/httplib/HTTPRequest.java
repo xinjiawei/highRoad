@@ -156,7 +156,7 @@ public class HTTPRequest {
 			reader.close();
 			myCookie.updateCookies(this.URLConnection);
 			this.setReferer(myURL.toString());
-			
+			System.out.print("----------get raw data success----------" +"\n");
 			return sReturn.toString();
 		} catch (Exception e) { 
 			e.printStackTrace(); 

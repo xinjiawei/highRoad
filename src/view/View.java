@@ -44,19 +44,20 @@ public class View {
 
 
                 // 输出数据
-                System.out.print("ID: " + id);
-                System.out.print(", Country: " + country);
-                System.out.print(", Road_No: " + roadno);
-                System.out.print(", Road_Category: " + roadcatalog);
-                System.out.print(", Province_Name: " + provincename);
-                System.out.print(", Start_Point_City: " + startcity);
-                System.out.print(", End_Point_City: " + endcity);
-                System.out.print(", Section_Length: " + sectionlength);
-                System.out.print(", Year_of_Construction: " + yearofcon);
-                System.out.print(", Year_of_Recent_Improvement: " + yearofrecentim);
-                
-
+                System.out.print("ID: " + id + "\n");
+                System.out.print(" Country: " + country + "\n");
+                System.out.print(" Road_No: " + roadno + "\n");
+                System.out.print(" Road_Category: " + roadcatalog + "\n");
+                System.out.print(" Province_Name: " + provincename + "\n");
+                System.out.print(" Start_Point_City: " + startcity + "\n");
+                System.out.print(" End_Point_City: " + endcity + "\n");
+                System.out.print(" Section_Length: " + sectionlength + "\n");
+                System.out.print(" Year_of_Construction: " + yearofcon + "\n");
+                System.out.print(" Year_of_Recent_Improvement: " + yearofrecentim + "\n");
                 System.out.print("\n");
+                System.out.println("----------------------------------");
+                System.out.print("\n");
+
             }
             // 完成后关闭
             rs.close();
@@ -82,7 +83,7 @@ public class View {
                 se.printStackTrace();
             }
         }
-        System.out.println("select data complete!");
+        System.out.println("----------select data complete!----------");
     }
     
 }
