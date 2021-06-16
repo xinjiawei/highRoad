@@ -1,5 +1,7 @@
 package view;
 import java.sql.*;
+
+import gui.Gui;
 //进行数据的读取，从数据库中，然后控制台打印
 public class View {
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
@@ -58,6 +60,9 @@ public class View {
                 System.out.println("----------------------------------");
                 System.out.print("\n");
 
+                Gui e = new Gui(country);
+                e.gui();
+
             }
             // 完成后关闭
             rs.close();
@@ -84,6 +89,7 @@ public class View {
             }
         }
         System.out.println("----------select data complete!----------");
+
     }
     
 }

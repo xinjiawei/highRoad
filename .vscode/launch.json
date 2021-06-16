@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Gui",
+            "request": "launch",
+            "mainClass": "view.Gui",
+            "projectName": "highRoad_12e3e193"
+        },
+        {
+            "type": "java",
             "name": "Launch Tester",
             "request": "launch",
             "mainClass": "Tester",
