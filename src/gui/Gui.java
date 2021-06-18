@@ -25,14 +25,14 @@ public class Gui {
 
 
     public void gui() {
-            JFrame a = new JFrame("lol");
+            JFrame a = new JFrame("结果显示页面");
             a.setLocation(100, 100);
             a.setSize(500, 400);
             a.setLayout(null);
             
             JLabel b = new JLabel(getJson2());
             b.setForeground(Color.red);
-            b.setBounds(50,50,280,30);
+            b.setBounds(10,10,480,380);
             
             a.add(b);
             a.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

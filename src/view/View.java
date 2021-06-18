@@ -59,10 +59,20 @@ public class View {
                 System.out.print("\n");
                 System.out.println("----------------------------------");
                 System.out.print("\n");
-
-                Gui e = new Gui(country);
+                /*
+                Gui e = new Gui("Country: " + country + "\r" + "Road_No: " + roadno + "\n" + "Road_Category: "
+                        + roadcatalog + "\n" + "Province_Name: " + provincename + "\n" + "Start_Point_City: "
+                        + startcity + "\n" + "End_Point_City: " + endcity + "\n" + "Section_Length: " + sectionlength
+                        + "\n" + "Year_of_Construction: " + yearofcon + "\n" + "Year_of_Recent_Improvement: "
+                        + yearofrecentim + "\n");
+                        */
+                
+                Gui e = new Gui("<html>Country: " + country + "<br/>Road_No: " + roadno + "<br/>Road_Category: "
+                        + roadcatalog + "<br/>Province_Name: " + provincename + "<br/>Start_Point_City: "
+                        + startcity + "<br/>End_Point_City: " + endcity + "<br/>Section_Length: " + sectionlength
+                        + "<br/>Year_of_Construction: " + yearofcon + "<br/>Year_of_Recent_Improvement: "
+                        + yearofrecentim + "</html>");
                 e.gui();
-
             }
             // 完成后关闭
             rs.close();
